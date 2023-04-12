@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/movies"
+            android:title="@string/Entertainment" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/technology"
+            android:title="@string/Technology" />
+        <item
+            android:id="@+id/nav_Sports"
+            android:icon="@drawable/running"
+            android:title="Sports News" />
+        <item
+            android:id="@+id/nav_national"
+            android:icon="@drawable/newsnational"
+            android:title="National News" />
+        <item
+            android:id="@+id/nav_international"
+            android:icon="@drawable/newsinternational"
+            android:title="International News" />
+    </group>
+</menu>

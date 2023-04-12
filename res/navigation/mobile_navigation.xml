@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.updatednewsapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.updatednewsapp.ui.gallery.GalleryFragment"
+        android:label="@string/Entertainment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.updatednewsapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/Technology"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_international"
+        android:name="Fragment.InternationalnewsFragment"
+        android:label="International News"
+        tools:layout="@layout/fragment_internationalnews" />
+    <fragment
+        android:id="@+id/nav_Sports"
+        android:name="Fragment.SportsFragment"
+        android:label="Sports News"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/nav_national"
+        android:name="Fragment.NationalnewsFragment"
+        android:label="National News"
+        tools:layout="@layout/fragment_nationalnews" />
+</navigation>
